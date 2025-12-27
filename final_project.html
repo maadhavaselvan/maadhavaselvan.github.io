@@ -1,18 +1,156 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>maadhavaselvan.com</title>
+<title>maadhavaselvan.com/home</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+body {background-color: powderblue; 
+background-image: url('nature.gif'); 
+background-attachment: fixed;
+background-size: 100% 100%;}
+.ap {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0000FF;
+}
+
+.ac {
+  float: left;
+  font-size:25px;
+}
+
+.ac a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.ac a:hover {
+  background-color: #00FF00;
+}
+.apps{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008B8B;
+}
+.app{
+  float: left;
+}
+.app a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.app a:hover{
+   background-color: #004C4C;
+}
+.u{
+color:#EAEAEA;
+font-size:40px;
+}
+.o{
+color:yellow;
+font-size:40px;
+}
+table, th, td {
+  border: 5px solid blue;
+  border-collapse: collapse;
+}
+th{
+  background-color: #000000;
+}
+tr:nth-child(odd) {
+  background-color: #000000;
+}
+tr:nth-child(even) {
+  background-color: #555555;
+}
+tr:hover {background-color: #FF00FF;}
+
+</style>
 </head>
-<body style="background-color:rgb(0,246,255);">
-<h1 style="font-family:Roboto Slab;font-size:70px;text-align:center;">Portfolio</h1>
-<img src="photo.jpeg" alt="Photo" width="200">
-<hr style="height:2px; background-color:black;">
-<p style="text-decoration: underline;text-decoration-thickness: 3px;text-decoration-color: black;color:red;font-size:60px"> Bio data</p>
-<p>A Maadhava Selvan</p>
-<address>
-Written by A Maadhava Selvan<br>
-<a href=https://www.linkedin.com/in/maadhava-selvan-anbuselvan-a09b09389/>Linkedin</a><br>
-Studied at:<a href="https://iiitr.ac.in/">IIIT Raichur</a><br>
-<a href="First_html_file.html#C1">Jump to Chapter 1</a>
+<body>
+<ul class="ap">
+  <li class="ac"><a href="final_project.html">Home</a></li>
+  <li class="ac"><a href="Contact.html">Contact</a></li>
+  <li class="ac"><a href="final_project.html#bio">Bio_data</a></li>
+</ul>
+<h1 style="font-family: 'Fredoka', sans-serif;color: #f5f5f5; text-align:center;font-size: 100px;"><b>My Portfolio</b></h1>
+<h1 id="bio" style="color:#FFFF00;font-size:50px;"><i>Bio Data:</i></h1>
+<img src="Photo.jpeg" alt="Passport size photo" style="width:300px;float:right;">
+<ol>
+   <li class="o">Personal Data:
+     <ul style="list-style-type:disc;">
+       <li class="u">Name:A Maadhava Selvan</li>
+       <li class="u">Age:18</li>
+       <li class="u">Home_Town:Tirunelveli,Tamilnadu,India</li>
+       <li class="u">Current Location:Raichur,Karnataka,India</li>
+       <li class="u">Mother Tongue:Tamil</li>
+       <li class="u">Nationality:India</li>
+       <li class="u">Known Languages:Tamil and English</li>
+       <li class="u">Hobbies:Chess,Reading Books</li>
+     </ul>
+   </li>
+   <li class="o">Education:
+   <table>     
+   <tr>
+       <th>Name of Institution</th>
+       <th>Programme of Study</th>
+       <th>Affiliated Board / University</th>
+       <th>Year of Passing</th>
+       <th>Aggregate Percentage</th>
+     </tr>
+     <tr>
+       <td>Pushpalata Vidya Mandir</td>
+       <td>Class 10</td>
+       <td>Central Board Of Secondary Education</td>
+       <td>2023</td>
+       <td>91</td>
+     </tr>
+     <tr>
+       <td>Pushpalata Vidya Mandir</td>
+       <td>Class 12</td>
+       <td>Central Board Of Secondary Education</td>
+       <td>2025</td>
+       <td>89</td>
+     </tr>
+     <tr>
+       <td>Pushpalata Vidya Mandir</td>
+       <td>JEE Mains</td>
+       <td>National Talent Agency</td>
+       <td>2025</td>
+       <td>95.72(percentile)</td>
+     </tr>
+     <tr>
+       <td>Indian Instituite Information Technology Raichur</td>
+       <td>B Tech Mathematics and Computing</td>
+       <td>Indian Instituite Information Technology Raichur</td>
+       <td>2029</td>
+       <td>N/A</td>
+     </tr>
+   </table>
+   </li>
+   <li class="o">Skills:
+     <ul style="list-style-type:disc;">
+       <li class="u">Python Programming</li>
+       <li class="u">C Programming</li>
+       <li class="u">Mysql Programming</li>
+     </ul>
+   </li>
+</ol>
+<h1 style="font-family: 'Fredoka', sans-serif;color: #f5f5f5; text-align:left;font-size: 40px;"><b>Below is my college website:</b></h1> 
+<iframe src="https://iiitr.ac.in/" style="height:500px;width:1300px;" title="Iframe Example"></iframe>
+<ul class="apps">
+  <li class="app"><a href="https://www.linkedin.com/in/maadhava-selvan-anbuselvan-a09b09389/" target="_blank"><img src="linkedin_logo.webp" alt="Linked in" style="height:40px;"></a></li>
+  <li class="app"><a href="https://leetcode.com/u/Maadhava_Selvan/" target="_blank"><img src="leetcode.png" alt="Leetcode" style="height:40px;"></a></li>
+</ul>
 </body>
 </html>
